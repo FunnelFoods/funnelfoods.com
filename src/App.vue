@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" id="navigation-bar">
       <a class="navbar-brand" href="">
         <img src="./assets/logo.svg" height="30">
       </a>
