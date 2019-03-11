@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920.567" height="706.882" viewBox="0 0 1920.567 706.882">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="529" height="97" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(0.067 -4337.121)">
+    <path id="Path_32" data-name="Path 32" d="M9.933,46.642S457.815-55.856,710.347,15.2,1144.6,3.981,1376.217-3.431s553.8,32.841,553.8,32.841L1930,697,9.991,696.986Z" transform="translate(-10 4347)" fill="rgba(250,217,207,0.2)"/>
+    <rect id="Rectangle_53" data-name="Rectangle 53" width="211" height="56" rx="28" transform="translate(1236 4449)" fill="#ed0058" opacity="0.5"/>
+    <g id="Rectangle_54" data-name="Rectangle 54" transform="translate(1477 4449)" fill="none" stroke="#ed0058" stroke-width="2" opacity="0.5">
+      <rect width="211" height="56" rx="28" stroke="none"/>
+      <rect x="1" y="1" width="209" height="54" rx="27" fill="none"/>
+    </g>
+    <text id="Call_to_action_question_" data-name="Call to action question?" transform="translate(129 4449)" fill="#335f68" font-size="42" font-family="Muli-Regular, Muli"><tspan x="0" y="42">Call to action question?</tspan></text>
+    <text id="Get_the_App" data-name="Get the App" transform="translate(1275 4486)" fill="#fff" font-size="24" font-family="Muli-ExtraBold, Muli" font-weight="800"><tspan x="0" y="0">Get the App</tspan></text>
+    <text id="Contact_Us" data-name="Contact Us" transform="translate(1522 4486)" fill="#ed0058" font-size="24" font-family="Muli-ExtraBold, Muli" font-weight="800" opacity="0.5"><tspan x="0" y="0">Contact Us</tspan></text>
+    <line id="Line_10" data-name="Line 10" x2="1920" transform="translate(0.5 4566.5)" fill="none" stroke="rgba(255,127,90,0.35)" stroke-width="2"/>
+    <text id="_funnel_2019" data-name=" funnel 2019" transform="translate(129 4970)" fill="#335f68" font-size="16" font-family="Muli-Regular, Muli"><tspan x="0" y="0" xml:space="preserve"> funnel 2019</tspan></text>
+    <text id="about" transform="translate(134 4742)" fill="#ed0058" font-size="24" font-family="Muli-Regular, Muli"><tspan x="0" y="0">about</tspan></text>
+    <text id="legal" transform="translate(134 4790)" fill="#ed0058" font-size="24" font-family="Muli-Regular, Muli"><tspan x="0" y="0">legal</tspan></text>
+    <text id="contact" transform="translate(134 4838)" fill="#ed0058" font-size="24" font-family="Muli-Regular, Muli"><tspan x="0" y="0">contact</tspan></text>
+    <text id="Follow_us_on:_" data-name="Follow us on: " transform="translate(1213 4688)" fill="#ed0058" font-size="32" font-family="FilsonSoftMedium, Filson Soft"><tspan x="-103.376" y="0">Follow us on: </tspan></text>
+    <text id="funnel" transform="translate(134 4688)" fill="#ed0058" font-size="32" font-family="FilsonSoftMedium, Filson Soft"><tspan x="0" y="0">funnel</tspan></text>
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(1114 4732)" clip-path="url(#clip-path)">
+      <g transform="translate(-1114 -5134)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="48.5" cy="48.5" r="48.5" transform="translate(1114 5134)" fill="#85d7c7"/>
+      </g>
+      <g transform="translate(-972 -5134)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="48.5" cy="48.5" r="48.5" transform="translate(1114 5134)" fill="#85d7c7"/>
+      </g>
+      <g transform="translate(-830 -5134)">
+        <circle id="Ellipse_1-3" data-name="Ellipse 1" cx="48.5" cy="48.5" r="48.5" transform="translate(1114 5134)" fill="#85d7c7"/>
+      </g>
+      <g transform="translate(-688 -5134)">
+        <circle id="Ellipse_1-4" data-name="Ellipse 1" cx="48.5" cy="48.5" r="48.5" transform="translate(1114 5134)" fill="#85d7c7"/>
+      </g>
+    </g>
+  </g>
+</svg>
