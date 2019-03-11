@@ -27,3 +27,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Accessing the website
+
+The development server is temporarily hosted [here](http://zehaohuang.cn:8080/).
