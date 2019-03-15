@@ -30,4 +30,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Accessing the website
 
-The development server is temporarily hosted [here](http://zehaohuang.cn:8080/).
+The development server was once hosted [here](http://zehaohuang.cn:8080/). It is now down. 
+
+The website can be accessed [here](https://funnelfoods.com/), but it's still under development. 
+
