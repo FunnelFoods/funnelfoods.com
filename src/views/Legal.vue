@@ -1,5 +1,6 @@
 <template>
     <div class="legal my-5">
+        <div class="background-svg" id="legal-header"></div>
         <div class="container text-left">
             <div class="row">
                 <div class="col-sm-2">
@@ -35,7 +36,13 @@
 </script>
 
 <style >
-    nav {
+    #legal-header {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 100%;
+        height: 60px;
         background-image: linear-gradient(to right, #0E4371, #FF7F5A);
     }
 </style>
