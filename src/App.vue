@@ -71,7 +71,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -102,4 +102,7 @@
   footer {
     background-image: url("./assets/footer-background.svg");
   }
+
+  @import './styles/_custom.scss';
+  @import '../node_modules/bootstrap/scss/bootstrap.scss';
 </style>
