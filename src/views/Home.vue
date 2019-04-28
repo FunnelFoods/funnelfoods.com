@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img class="background-svg" src="../assets/home.svg" width="100%" alt="background">
+    <img class="background-svg" id="home-background-svg" src="../assets/home-mobile.svg" width="100%" alt="background">
     <div class="container">
       <div class="row mb-5" id="shopping">
         <div class="col-md-7 my-auto justify-content-between">

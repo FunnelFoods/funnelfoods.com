@@ -1,6 +1,6 @@
 <template>
     <div class="contact">
-        <img class="background-svg" src="../assets/contact.svg" width="100%" alt="background">
+        <img class="background-svg" src="../assets/contact-mobile.svg" id="contact-background-svg" width="100%" alt="background">
         <div class="container my-5">
             <div class="row">
                 <div class="col-md-6 text-light my-auto">

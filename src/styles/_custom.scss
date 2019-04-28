@@ -56,3 +56,15 @@
 //// Set global options
 //$enable-shadows: false;
 //$enable-gradients: true;
+
+@media (min-width: 768px) {
+  #home-background-svg {
+    content:url("./assets/home.svg");
+  }
+  #contact-background-svg {
+    content:url("./assets/contact.svg");
+  }
+  #about-background-svg {
+    content:url("./assets/about.svg");
+  }
+}

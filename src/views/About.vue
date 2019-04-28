@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-        <img class="background-svg" src="../assets/about.svg" width="100%" alt="background">
+        <img class="background-svg" id="about-background-svg" src="../assets/about-mobile.svg" width="100%" alt="background">
         <div class="container my-5" id="mission">
             <div class="row">
                 <div class="col-md-1 col-placeholder"></div>
