@@ -103,6 +103,6 @@
     background-image: url("./assets/footer-background.svg");
   }
 
-  @import './styles/_custom.scss';
+  @import 'custom';
   @import '../node_modules/bootstrap/scss/bootstrap.scss';
 </style>
