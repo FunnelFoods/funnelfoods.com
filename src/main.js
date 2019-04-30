@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import VueTypedJs from 'vue-typed-js'
+import 'vue-typed-js/dist/vue-typed-js.css'
+
+Vue.use(VueTypedJs)
 
 // import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap';

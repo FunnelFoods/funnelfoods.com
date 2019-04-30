@@ -1,10 +1,14 @@
 <template>
   <div class="home">
     <div id="header">
+      <vue-typed-js :strings="['Grocery shopping, <u>without the hassle.</u>', 'Grocery shopping, <u>with nutrition tracking.</u>', 'Grocery shopping, <u>with recipe suggestions.</u>', 'Grocery shopping, <u>with shopping rewards.</u>', 'Grocery shopping, <u>with more fun.</u>']" :typeSpeed="60" :backDelay="1600">
+        <h1 class="typing"></h1>
+      </vue-typed-js>
       <div class="col-md-12 my-auto justify-content-between text-light" id="title">
-        <h1>Grocery shopping, <u id="changeText">without the hassle.</u></h1>
           <!--<button class="float-left btn btn-outline-light mr-2">Learn More</button>
           <button class="float-left btn btn-outline-light">Get the App</button>-->
+          <div></div>
+
       </div>
     </div>
     <div class="container my-5 space">
@@ -53,7 +57,7 @@
           <div class="col-md-4 my-auto justify-content-between">
             <h2>Restock on groceries</h2>
             <p><i>Your fridge won't fill itself.</i></p>
-            <p>Automatically add the ingredients you're missing for your favorite recipes. Shop for everything else. You won't have to step foot into a grocery store ever again.</p>
+            <p>Automatically add the ingredients you're missing for your favorite recipes. Shop for everything else. Get grocery rewards. You won't have to step foot into a grocery store ever again.</p>
           </div>
           <div class="col-md-2 col-placeholder"></div>
           <div class="col-md-4">
@@ -77,11 +81,18 @@
     background-size: cover;
     background-position: center;
     z-index: -1;
+    color: white;
+    text-align: center;
   }
 
   #header div {
     position: relative;
     top: 25vh;
+    display: inline-block;
+  }
+
+  #header h1 {
+    display: inline-block;
   }
 
   .nav-link {
