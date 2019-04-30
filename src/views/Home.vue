@@ -1,90 +1,95 @@
 <template>
   <div class="home">
-    <img class="background-svg" id="home-background-svg" src="../assets/home-mobile.svg" width="100%" alt="background">
-    <div class="container my-5">
-      <div class="row my-5" id="shopping">
-        <div class="col-md-7 my-auto justify-content-between text-light">
-          <h2>Grocery shopping, <u>without the hassle.</u></h2>
-          <p>The underlined part changes every 5 seconds. This description is an explanation of what funnel does and how it makes grocery shopping not a hassle. </p>
-            <button class="float-left btn btn-outline-light mr-2">Learn More</button>
-            <button class="float-left btn btn-outline-light">Get the App</button>
-        </div>
-        <div class="col-md-5">
-          <img class="img-fluid mx-auto" src="../assets/shopping-picture.svg" >
-        </div>
+    <div id="header">
+      <div class="col-md-12 my-auto justify-content-between text-light" id="title">
+        <h1>Grocery shopping, <u id="changeText">without the hassle.</u></h1>
+          <!--<button class="float-left btn btn-outline-light mr-2">Learn More</button>
+          <button class="float-left btn btn-outline-light">Get the App</button>-->
       </div>
-      <div class="row mb-5" id="feature">
-        <div class="col-md-5">
-          <img src="../assets/demo-of-app.svg" alt="Demo of App" class="img-fluid mx-auto">
-          <p>Demo of the App Here.</p>
+    </div>
+    <div class="container my-5 space">
+      <h1 class="text-left">How does it work?</h1>
+      <div class="row mb-5">
+        <div class="col-md-1 col-placeholder"></div>
+        <div class="col-md-4">
+          <img src="../assets/scan.svg" class="img-fluid mx-auto">
         </div>
-        <div class="col-md-7 my-auto justify-content-between">
-          <h2>Text describing what the feature offers</h2>
-          <p>Filler text about how useful the app is for the user, specifically in health, spending and ease of life benefits </p>
+        <div class="col-md-2 col-placeholder"></div>
+        <div class="col-md-4 my-auto justify-content-between">
+          <h2>Scan your receipt</h2>
+          <p><i>With our homegrown OCR algorithm.</i></p>
+          <p>With a click of a button, our app will get all your groceries of your receipt. No more manually adding each item or scanning barcodes!</p>
         </div>
+        <div class="col-md-1 col-placeholder"></div>
       </div>
-      <div class="mb-5" id="features">
-        <h1 class="text-left">How It Works</h1>
-        <div class="row mb-5" id="feature-1">
+        <div class="row mb-5">
           <div class="col-md-1 col-placeholder"></div>
-          <div class="col-md-4">
-            <img src="../assets/feature-small.svg" class="img-fluid mx-auto">
+          <div class="col-md-4 my-auto justify-content-between">
+            <h2>Track your food</h2>
+            <p><i>All your food data. In one place.</i></p>
+            <p>See the food you've purchased, how much you're spending on groceries, their nutritional contents and more.</p>
           </div>
           <div class="col-md-2 col-placeholder"></div>
-          <div class="col-md-4 my-auto justify-content-between">
-              <p>Using the scan button</p>
-              <h2>Scan food items</h2>
-              <p>You place your item in the thing and does the thing. More explanation of how this actually works. </p>
+          <div class="col-md-4">
+            <img src="../assets/papers.svg" class="img-fluid mx-auto">
           </div>
           <div class="col-md-1 col-placeholder"></div>
         </div>
-        <div class="row mb-5" id="feature-2">
-          <div class="col-md-1 col-placeholder"></div>
-          <div class="col-md-4 my-auto justify-content-between">
-            <p>with machine learning</p>
-            <h2>Generate lists</h2>
-            <p>After you place the thing in the thing it does the thing</p>
-          </div>
-          <div class="col-md-2 col-placeholder"></div>
-          <div class="col-md-4">
-            <img src="../assets/feature-small.svg" class="img-fluid mx-auto">
-          </div>
-          <div class="col-md-1 col-placeholder"></div>
-        </div>
-        <div class="row mb-5" id="feature-3">
+        <div class="row mb-5">
           <div class="col-md-1 col-placeholder"></div>
           <div class="col-md-4">
-            <img src="../assets/feature-small.svg" class="img-fluid mx-auto">
+            <img src="../assets/cooking.svg" class="img-fluid mx-auto">
           </div>
           <div class="col-md-2 col-placeholder"></div>
           <div class="col-md-4 my-auto justify-content-between">
-            <p>Recommend recipes</p>
-            <h2>Recommend recipes</h2>
-            <p>You place you times in the thing and does the thing. More explanation of how this actually works.</p>
+            <h2>Get cookin'</h2>
+            <p><i>Go wild.</i></p>
+            <p>With our personalized recipe recommendations, you'll always be close to one step closer to your next tasty nutritious meal.</p>
           </div>
           <div class="col-md-1 col-placeholder"></div>
         </div>
         <div class="row mb-5" id="feature-4">
           <div class="col-md-1 col-placeholder"></div>
           <div class="col-md-4 my-auto justify-content-between">
-            <p>Using the scan button</p>
-            <h2>Order more food</h2>
-            <p>You place your times in the thing and does the thing. More explanation of how this actually works.</p>
+            <h2>Restock on groceries</h2>
+            <p><i>Your fridge won't fill itself.</i></p>
+            <p>Automatically add the ingredients you're missing for your favorite recipes. Shop for everything else. You won't have to step foot into a grocery store ever again.</p>
           </div>
           <div class="col-md-2 col-placeholder"></div>
           <div class="col-md-4">
-            <img src="../assets/feature-small.svg" class="img-fluid mx-auto">
+            <img src="../assets/shopping.svg" class="img-fluid mx-auto">
           </div>
           <div class="col-md-1 col-placeholder"></div>
         </div>
-      </div>
     </div>
   </div>
 </template>
 
 <style>
+  #header {
+    width: 101vw;
+    height: 70vh;
+    position: relative;
+    top: -6vh;
+    left: -1vw;
+    right: 15px;
+    background-image: url("../assets/home.svg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+
+  #header div {
+    position: relative;
+    top: 25vh;
+  }
+
   .nav-link {
     color: white;
+  }
+
+  .space div {
+    margin-top: 4em;
   }
 </style>
 

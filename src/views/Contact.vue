@@ -4,8 +4,8 @@
         <div class="container my-5">
             <div class="row">
                 <div class="col-md-6 text-light my-auto">
-                    <h2>Interested in contacting us?</h2>
-                    <p>Description of what we are looking for.</p>
+                    <h2>Want to give us feedback? Want to learn more?</h2>
+                    <p>We'd love to hear from you!</p>
                 </div>
                 <div class="col-md-6">
                     <div class="row" style="background-color: white; border-radius: 20px;">
