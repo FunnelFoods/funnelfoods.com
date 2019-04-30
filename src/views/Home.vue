@@ -1,15 +1,13 @@
 <template>
   <div class="home">
     <img class="background-svg" id="home-background-svg" src="../assets/home-mobile.svg" width="100%" alt="background">
-    <div class="container">
-      <div class="row mb-5" id="shopping">
-        <div class="col-md-7 my-auto justify-content-between">
+    <div class="container my-5">
+      <div class="row my-5" id="shopping">
+        <div class="col-md-7 my-auto justify-content-between text-light">
           <h2>Grocery shopping, <u>without the hassle.</u></h2>
           <p>The underlined part changes every 5 seconds. This description is an explanation of what funnel does and how it makes grocery shopping not a hassle. </p>
-          <div class="row">
             <button class="float-left btn btn-outline-light mr-2">Learn More</button>
             <button class="float-left btn btn-outline-light">Get the App</button>
-          </div>
         </div>
         <div class="col-md-5">
           <img class="img-fluid mx-auto" src="../assets/shopping-picture.svg" >
@@ -84,11 +82,10 @@
   </div>
 </template>
 
-<style scoped>
-  /*
-  TODO: Implement
-   */
-
+<style>
+  .nav-link {
+    color: white;
+  }
 </style>
 
 <script>

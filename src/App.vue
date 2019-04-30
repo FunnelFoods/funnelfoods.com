@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg" id="navigation-bar">
+    <nav class="navbar navbar-expand-lg navbar-default" id="navigation-bar">
       <a class="navbar-brand" href="">
         <img src="./assets/logo.svg" height="30">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbar">
         <ul class="mr-auto"></ul>
         <ul class="ml-auto nav justify-content-end" id="nav" >
           <li class="nav-item">
@@ -72,6 +72,14 @@
 </template>
 
 <style lang="scss">
+  @import 'custom';
+  @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+  @font-face {
+    font-family: 'Filson Soft';
+    src: url("./fonts/Filson Soft Regular.otf") format('opentype');
+  }
+
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -79,11 +87,6 @@
     text-align: center;
     color: #2c3e50;
     /*margin-top: 60px;*/
-  }
-
-  .nav-link {
-    font-family: 'muliRegular', sans-serif;
-    color: white;
   }
 
   .background-svg {
@@ -99,10 +102,24 @@
     left: 0px;
   }
 
+  .nav-link {
+    color: rgba(255, 255, 255, 1);
+    &:hover {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
   footer {
     background-image: url("./assets/footer-background.svg");
   }
 
-  @import 'custom';
-  @import '../node_modules/bootstrap/scss/bootstrap.scss';
+  .navbar-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    width: 40px!important;
+  }
+
+  .btn {
+    border-radius: 50px!important;
+  }
 </style>

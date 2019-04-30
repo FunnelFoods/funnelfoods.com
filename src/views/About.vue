@@ -145,7 +145,7 @@
     }
 </script>
 
-<style scoped>
+<style>
     .members > .row {
         overflow-x: auto;
         white-space: nowrap;
@@ -153,5 +153,8 @@
     .members > .row > .col-sm-4 {
         display: inline-block;
         float: none;
+    }
+    .nav-link {
+        color: white;
     }
 </style>

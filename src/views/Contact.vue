@@ -73,6 +73,8 @@
     }
 </script>
 
-<style scoped>
-
+<style >
+    .nav-link {
+        color: white;
+    }
 </style>

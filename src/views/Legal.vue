@@ -45,4 +45,8 @@
         height: 60px;
         background-image: linear-gradient(to right, #0E4371, #FF7F5A);
     }
+
+    .nav-link {
+        color: black;
+    }
 </style>
