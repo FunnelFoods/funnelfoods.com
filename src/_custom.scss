@@ -600,8 +600,8 @@ $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 15%) !default;
 $link-hover-decoration:                   underline !default;
 
-html {
-  overflow-x: hidden;
+html, body {
+  overflow-x: hidden !important;
 }
 
 @media (min-width: 768px) {

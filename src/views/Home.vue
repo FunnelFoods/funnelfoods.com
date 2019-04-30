@@ -8,8 +8,9 @@
           <!--<button class="float-left btn btn-outline-light mr-2">Learn More</button>
           <button class="float-left btn btn-outline-light">Get the App</button>-->
           <div></div>
-
       </div>
+    </div>
+    <div id="header-space">
     </div>
     <div class="container my-5 space">
       <h1 class="text-left">How does it work?</h1>
@@ -72,11 +73,10 @@
 <style>
   #header {
     width: 101vw;
-    height: 70vh;
-    position: relative;
-    top: -6vh;
+    height: 90vh;
+    position: absolute;
     left: -1vw;
-    right: 15px;
+    top: -10vh;
     background-image: url("../assets/home.svg");
     background-size: cover;
     background-position: center;
@@ -95,12 +95,18 @@
     display: inline-block;
   }
 
+  #header-space {
+    display: inline-block;
+    width: 100%;
+    height: 70vh;
+  }
+
   .nav-link {
     color: white;
   }
 
   .space div {
-    margin-top: 4em;
+    margin-top: 2em;
   }
 </style>
 
