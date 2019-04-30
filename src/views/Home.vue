@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div id="header">
-      <vue-typed-js :strings="['Grocery shopping, <u>without the hassle.</u>', 'Grocery shopping, <u>with nutrition tracking.</u>', 'Grocery shopping, <u>with recipe suggestions.</u>', 'Grocery shopping, <u>with shopping rewards.</u>', 'Grocery shopping, <u>with more fun.</u>']" :typeSpeed="30" :backDelay="1600" :showCursor="false">
+      <vue-typed-js :strings="['Grocery shopping, <u>without the hassle.</u>', 'Grocery shopping, <u>with nutrition tracking.</u>', 'Grocery shopping, <u>with recipe suggestions.</u>', 'Grocery shopping, <u>with shopping rewards.</u>', 'Grocery shopping, <u>with less grocery shopping.</u>', 'Grocery shopping, <u>with more fun.</u>']" :typeSpeed="30" :backDelay="1600" :showCursor="false">
         <h1 class="typing"></h1>
       </vue-typed-js>
       <div class="col-md-12 my-auto justify-content-between text-light" id="title">
