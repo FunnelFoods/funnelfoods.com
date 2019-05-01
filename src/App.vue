@@ -124,6 +124,7 @@
     background-size: cover;
     background-image: url("./assets/footer-background.svg");
     background-repeat: repeat-x;
+    box-shadow: 0 50vh 0 50vh #fadcd2;
   }
 
   .navbar-toggler {

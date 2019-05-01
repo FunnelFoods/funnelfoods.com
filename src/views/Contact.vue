@@ -34,7 +34,7 @@
                                         <label for="email">Email</label>
                                         <input type="text" class="form-control" id="email" placeholder="Email" required>
                                         <div class="invalid-feedback">
-                                            Please provide a valid city.
+                                            Please provide a valid email.
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@
                                         <label for="title">Title</label>
                                         <input type="text" class="form-control" id="title" placeholder="Title" required>
                                         <div class="invalid-feedback">
-                                            Please provide a valid city.
+                                            Please provide a valid title.
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@
 
                                         </textarea>
                                         <div class="invalid-feedback">
-                                            Please provide a valid city.
+                                            Please provide a valid message.
                                         </div>
                                     </div>
                                 </div>
