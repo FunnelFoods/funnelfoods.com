@@ -7,6 +7,9 @@ import 'vue-typed-js/dist/vue-typed-js.css'
 
 Vue.use(VueTypedJs)
 
+import Meta from 'vue-meta';
+Vue.use(Meta);
+
 // import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap';
 

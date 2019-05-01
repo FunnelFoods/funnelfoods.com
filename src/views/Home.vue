@@ -117,6 +117,10 @@
 
 <script>
   export default {
-    name: "home"
+    name: "home",
+    metaInfo: {
+      title: 'FunnelFoods | Home',
+      // Define meta tags here.
+    }
   }
 </script>

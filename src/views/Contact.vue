@@ -69,7 +69,11 @@
 
 <script>
     export default {
-        name: "Contact"
+        name: "Contact",
+        metaInfo: {
+          title: 'FunnelFoods | Contact',
+          // Define meta tags here.
+        }
     }
 </script>
 
