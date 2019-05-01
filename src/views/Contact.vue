@@ -1,6 +1,6 @@
 <template>
     <div class="contact">
-        <img class="background-svg" src="../assets/contact-mobile.svg" id="contact-background-svg" width="100%" alt="background">
+      <div class="background"></div>
         <div class="container my-5">
             <div class="row">
                 <div class="col-md-6 text-light my-auto">
@@ -74,6 +74,15 @@
 </script>
 
 <style >
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(#1d3e62, #aad3cc);
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+    }
     .nav-link {
         color: white;
     }

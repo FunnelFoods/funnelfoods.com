@@ -2,7 +2,7 @@
   <div id="app">
     <nav class="navbar navbar-expand-lg navbar-default" id="navigation-bar">
       <a class="navbar-brand" href="">
-        <img src="./assets/logo.svg" height="30">
+        <img src="./assets/logo.svg" height="25">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -92,8 +92,8 @@
 
   .navbar-brand {
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: -2px;
+    left: 0px;
   }
 
   .background-svg {

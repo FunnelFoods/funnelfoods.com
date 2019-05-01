@@ -71,12 +71,17 @@
 </template>
 
 <style>
+  body {
+    background-color: white;
+    background-image: linear-gradient(white, white);
+  }
+
   #header {
     width: 101vw;
     height: 90vh;
     position: absolute;
-    left: -1vw;
-    top: -10vh;
+    left: -10px;
+    top: 0;
     background-image: url("../assets/home.svg");
     background-size: cover;
     background-position: center;
@@ -87,7 +92,7 @@
 
   #header div {
     position: relative;
-    top: 25vh;
+    top: 35vh;
     display: inline-block;
   }
 
@@ -98,7 +103,7 @@
   #header-space {
     display: inline-block;
     width: 100%;
-    height: 70vh;
+    height: 85vh;
   }
 
   .nav-link {
