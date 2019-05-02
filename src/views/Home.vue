@@ -77,7 +77,7 @@
   }
 
   #header {
-    width: 101vw;
+    width: 104vw;
     height: 90vh;
     position: absolute;
     left: -10px;
